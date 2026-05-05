@@ -108,8 +108,8 @@
         <!-- Contact Info -->
         <div class="contact-info">
             <h2>Get in Touch</h2>
-            <p><strong>Address:</strong> Bharatpur, Chitwan</p>
-            <p><strong>Phone:</strong> +977-9800000000</p>
+            <p><strong>Address:</strong> Bharatpur,Chitwan</p>
+            <p><strong>Phone:</strong> +977-98000000</p>
             <p><strong>Email:</strong> info@ankitacloth.com</p>
         </div>
 
