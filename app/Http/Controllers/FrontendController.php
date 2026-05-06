@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -18,5 +19,10 @@ class FrontendController extends Controller
     return view('contact');
   }
 
+  public function submit(Request $request){
+  //  dd($request); test garna data  
+  Contact::create($request->all());
+  return view('success');
+  }
 
 }
