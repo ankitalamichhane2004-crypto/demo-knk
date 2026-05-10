@@ -24,4 +24,4 @@ Route::get('/table',[FrontendController::class, 'table']);
 
 Route::get('/edit/{id}',[FrontendController::class, 'edit'])->name('editpage'); 
 
-Route::post('/update/{contact}',[FrontendController::class, 'update'])->name('update');
+Route::post('/update/{register}',[FrontendController::class, 'update'])->name('update');
