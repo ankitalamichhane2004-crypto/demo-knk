@@ -67,7 +67,7 @@
    @endif
 
    
-    <form method="POST" action="{{ route('update',$userdata) }}">
+    <form method="POST" action="{{ route('update',$userdata->id) }}">
         @csrf
         <label>Full Name</label>
         <input type="text" name="full_name" value="{{ $userdata->full_name }}">
