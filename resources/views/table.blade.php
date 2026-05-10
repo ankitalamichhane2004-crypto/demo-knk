@@ -69,7 +69,9 @@
         <td>{{ $data->semester }}</td>
         <td> <a href="{{ route('editpage',$data->id) }}"><button>Edit</button></a></td>
          <td>
-          <form method="POST" action=""><button type="submit">Delete</button></form>
+          <form method="POST" action="{{ route('delete',$data->id) }}">
+            @csrf 
+            <button type="submit">Delete</button></form>
         </td>
       </tr>
        
